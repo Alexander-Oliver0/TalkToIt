@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #bee7f3;
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    background-color: #19647E;
+    margin: -20px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    list-style: none; 
+    margin:10px;
+}
+
+nav a{
+    font-family: 'Jura', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav p{
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    color: #bee7f3;
+    margin-left: 190px;
+}
+
+#homeNav:hover {
+    color: #00B9AE;
+}
+
+#productsNav:hover {
+    color: #FF3C38;
+}
+
+#interfaceNav:hover {
+    color: orange;
+}
+
+#faqNav:hover {
+    color: #A9C5A0;
+}
+
+#contactNav:hover {
+    color: #2d8dcb;
+}
+
+#logo{
+    margin: 100px 600px;
+}
+
+p{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    letter-spacing: .05em;
+}
+
+.title{
+    font-family: 'Jura', sans-serif;
+    margin: 20px;
+    font-size: 40px;
+}
+
+#story{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 650px;
+}
+
+#story p{
+    margin-left: 30px;
+}
+
+#story img{
+    margin-left: 850px;
+    margin-top: -405px;
+    width: 350px; 
+}
+
+#products{
+    text-align: center;
+    margin-top: 100px;
+    width: 650px;
+    margin-left: 620px;
+}
+
+#products p{
+    margin-left: 30px;
+}
+
+h3{
+    font-family: 'Jura', sans-serif;
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+#bb{
+    margin-left: 400px
+}
+
+#productFoto{
+    margin-left: -800px;
+    margin-top: -450px;
+    width: 350px;
+}
+
+#interface{
+    margin-top: 160px;
+    text-align: center
+}
+
+#block{
+    display: flex;
+}
+
+#int{
+    margin-top: -80px;
+    height: 80px;
+}
+
+#app{
+    width: 300px;
+    margin-right: 200px;
+    margin-left: 100px
+}
+
+#application{
+    width: 300px;
+}
+
+#app p{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#appIn{
+    margin-right: 200px;
+    width: 300px;
+}
+
+#applicationInside{
+    width: 300px;
+}
+
+#appIn p{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#appConnection{
+    width: 300px;
+}
+
+#connections{
+    width: 300px;
+}
+
+#appConnection p{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#vid{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 350px;
+    border: 1.5px black solid;
+}
+
+#faq{
+   text-align: center;
+    margin-top: 100px;
+}
+
+#questions{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.q{
+    border: 5px solid #00B9AE;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.a{
+    position: absolute;
+    border: 5px solid #00B9AE;
+    border-top: none;
+    height: 60px;
+    width: 500px;
+    margin-left: 80px
+}
+
+.q p{
+    margin-top: 35px;
+}
+
+.a p{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+#answer1{
+    height: 90px;
+}
+
+#answer2{
+    height: 90px;
+}
+
+#answer3{
+    height: 90px;
+}
+
+.hide{
+    display:none ;
+}
+
+.ps{
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: -35px;
+    opacity: 1;
+    width: 50px
+}
+
+.ms{
+    position: absolute;
+    cursor: pointer;
+    margin-top: -17px;
+    margin-left: -50px;
+    opacity: 0;
+    width: 50px;
+}
+
+#contact{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#textbox{
+    width: 100%;
+}
+#part1{
+    text-align: left;
+    margin-left: 100px;
+}
+
+#part2{
+    margin-top: -250px
+}
+.cont{
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+    letter-spacing: .05em;
+    margin-bottom: 50px;
+}
+
+.contact{
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+    letter-spacing: .05em;
+    margin-bottom: 50px;
+}
+
+#fname{
+    margin-top: 50px;
+}
+
+#lname{
+    width: 165px;
+}
+
+#mail{
+    width: 220px;
+}
+
+#m label{
+    margin: 500px;
+}
+
+#yourMessage{
+    width: 400px;
+    height: 200px
+}
+
+footer{
+    background-color: #020402;
+    color: #bee7f3;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 100px;
+    padding: 40px;
+    height: 200px
+}
+
+footer p{
+    margin-bottom: 10px;
+    width: 200px
+}
+
+#fText{
+    margin-bottom: 10px;
+}
+
+#socialMedia{
+    margin-top: -70px;
+    margin-left: 550px;
+    
+}
+
+#fb{
+    width: 100px;
+    margin-right: 50px;
+}
+
+#insta{
+    width: 100px;
+    margin-right: 50px;
+}
+
+#twitter{
+    width: 100px;
+}
